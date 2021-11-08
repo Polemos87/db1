@@ -27,3 +27,5 @@ sel = connection.execute("""SELECT name FROM composition
    WHERE name iLIKE '%% my %%' OR name iLIKE '%% мой %%'  ;""")
 print(sel.fetchall())
 
+
+
